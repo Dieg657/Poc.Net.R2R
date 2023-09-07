@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<PublishReadyToRun>true</PublishReadyToRun>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Net.R2R.Domain\Poc.Net.R2R.Domain.csproj" />
+    <ProjectReference Include="..\Poc.Net.R2R.Repository\Poc.Net.R2R.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
